@@ -1,7 +1,9 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 import { AiFillBug } from "react-icons/ai";
 import { icons } from "react-icons";
+import { usePathname } from "next/navigation";
 
 const NavBar = () => {
   const links = [
